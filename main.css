@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Eater&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    font-family: "Eater", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#start-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    background-position: center;
+}
+#info-div{
+    color: #FEFFD2;
+    font-size: 30px;
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: black;
+}
+#register-div{
+    color: #FEFFD2;
+    font-size: 30px;
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: darkgreen;
+}
+#title-div{
+    color: #FEFFD2;
+    font-size: 30px;
+    color: darkgreen;
+}
+#martial-arts-div{
+    color: #FEFFD2;
+    font-size: 30px;
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: darkgreen;
+}
+#social-div{
+    color: #FEFFD2;
+    font-size: 30px;
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: darkgreen;
+}
+#goa-div{
+    width: 100%;
+    height: 400px;
+    background: url(greenbc.png);
+    background-size: cover;
+    background-position: center;
+}
+#goa-text{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: white;
+}
+#goa-text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: none;
+    font-size: 30px;
+    margin: 40px;
+}
+#goa-text3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: none;
+    font-size: 30px;
+}
+#goa-text4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: none;
+    font-size: 30px;
+}
+#blackdiv1{
+    width: 1306px;
+    height: 208px;
+    background-color: black;
+    color: white;
+    font-family: none;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+    font-style: italic;
+}
+#a1{
+    text-decoration: none;
+    color: white;
+}
+#a2{
+    text-decoration: none;
+    color: white;
+}
+#a3{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-size: 35px;
+}

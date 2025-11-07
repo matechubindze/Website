@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div id="main-div">
+        <div id="registerDiv">
+            <label id="labelUsername">Username:</label><br>
+            <input type="text" id="inputUsername"><br><br>
+
+            <label id="labelNickname">Nickname:</label><br>
+            <input type="text" id="inputNickname"><br><br>
+
+            <label id="labelAge">Age:</label><br>
+            <input type="number" id="inputAge"><br><br>
+
+            <label id="labelReason">Why do you want to join GOA?</label><br>
+            <textarea id="inputReason"></textarea><br><br>
+
+            <button id="btnSubmit" onclick="register()">Submit</button>
+        </div>
+    </div>
+    <div id="successBox">Registration Successful!</div>
+    <div id="back">
+        <a id="a1" href="main.html">Back To Main Page</a>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>

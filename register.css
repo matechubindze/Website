@@ -1,0 +1,57 @@
+#body {
+  background-color: gray;
+  font-family: sans-serif;
+}
+
+#registerDiv {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  margin: 100px auto;
+  border-radius: 10px;
+  text-align: left;
+}
+
+#labelUsername,
+#labelNickname,
+#labelAge,
+#labelReason {
+  color: green;
+}
+
+#btnSubmit {
+  background: green;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#successBox {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+#back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#a1{
+    text-decoration: none;
+    color: black;
+}
+#btnSubmit:hover {
+  font-size: 15px;
+  background-color: black;
+}
+a:hover{
+  font-size: 27px;
+}

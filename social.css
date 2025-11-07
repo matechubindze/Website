@@ -1,0 +1,39 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#socials {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#h1 {
+  margin-bottom: 20px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+#instagram { background-color: rgb(193, 112, 126); }
+#facebook { background-color: blue; }
+#youtube { background-color: red; }
+
+a:hover {
+  opacity: 0.8;
+}
